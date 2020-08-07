@@ -1,0 +1,26 @@
+.SidebarRow {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+.sidebarIcon {
+  color: gray;
+  font-size: large !important;
+}
+.sidebartitle {
+  flex: 1;
+  margin-left: 20px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.SidebarRow:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+.SidebarRow:hover > .sidebarIcon {
+  color: red;
+}
+.SidebarRow:hover > .sidebartitle {
+  font-weight: bold;
+}

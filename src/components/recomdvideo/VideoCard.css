@@ -1,0 +1,21 @@
+.VideoCard {
+  width: 250px;
+  margin-bottom: 40px;
+}
+.videocard_image {
+  height: 140px;
+  width: 230px;
+}
+.videoCard_info {
+  display: flex;
+  margin-top: 10px;
+  padding-right: 10px;
+}
+
+.video__text {
+  margin-left: 15px;
+}
+.videCard_avtar {
+  height: 30px !important;
+  width: 30px !important;
+}

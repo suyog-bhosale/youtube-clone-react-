@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  padding: 20px;
+  top: 0;
+  background-color: white;
+  z-index: 100;
+}
+.header__logo {
+  height: 45px;
+  object-fit: contain;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.header__input {
+  display: flex;
+  width: 40%;
+  border: 1px solid lightgray;
+  align-items: center;
+}
+.header__right {
+  display: flex;
+  align-items: center;
+}
+.header__input > input {
+  flex: 1;
+  border: none;
+}
+.header__button {
+  width: 15% !important;
+  background-color: #fafafa;
+  border-left: 1px solid lightgray;
+}
+.headerIcon {
+  margin-right: 5px;
+}
